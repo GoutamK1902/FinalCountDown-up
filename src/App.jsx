@@ -5,7 +5,7 @@ import ParticleRing from "./components/ParticleRing";
 export default function App() {
   return (
     <div className="App">
-      <CountDown />
+      <CountDown startFrom={3} />
       <ParticleRing />
     </div>
   );

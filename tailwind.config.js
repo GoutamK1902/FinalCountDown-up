@@ -1,4 +1,8 @@
 module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}", // For React components
+    "./public/index.html", // For your main HTML file
+  ],
   theme: {
     extend: {
       backgroundImage: {
