@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  padding: 0.5em;
+  text-transform: uppercase;
+  /* animation: anim 1s ease-in-out infinite; */
+}
+/* .btn {
+  background: #77ff33;
+  padding: 1em;
+  border-radius: 0.7em;
+  outline: none;
+  border: none;
+  box-shadow: 1px 1px 5px 3px inset #00000030;
+} */
+.btn:active {
+  transform: scale(0.9);
+}
+
+.countdown {
+  /* color: #6366f1; */
+  color: #8b5cf6;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: anim 1.1s ease-in-out infinite;
+}
+@keyframes anim {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(12);
+    opacity: 0;
+  }
+}
+
+/* BTN ANIM */
+.btn {
+  position: relative;
+  overflow: hidden;
+  margin-top: 100px;
+  font-weight: 900;
+  font-size: 20px;
+  font-family: "Poppins";
+  color: #fff;
+  background: #e90074;
+  text-transform: uppercase;
+  box-shadow: -2px 2px 2px #ccc;
+  padding: 1em;
+  border-radius: 12px;
+
+  border: none;
+  box-shadow: 1px 1px 5px 3px inset #00000030;
+  /* background-color: #fff45f; */
+}
+
+.btn:after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  bottom: -50%;
+  left: -50%;
+  background: linear-gradient(
+    to bottom,
+    rgba(229, 172, 142, 0),
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(229, 172, 142, 0)
+  );
+  transform: rotateZ(60deg) translate(-5em, 7.5em);
+}
+
+.btn:hover::after,
+button:focus::after {
+  animation: sheen 1s forwards;
+}
+
+@keyframes sheen {
+  100% {
+    transform: rotateZ(60deg) translate(1em, -9em);
+  }
+}
+
+.btn:active {
+  color: #fff;
+  background: #e90074;
+  box-shadow: 1px 1px 5px 3px inset #00000030;
+  -webkit-box-shadow: inset -2px 2px 2px #ccc;
+  -moz-box-shadow: inset -2px 2px 2px #ccc;
+  box-shadow: inset -2px 2px 2px #ccc;
+  transform: translate(0, 2px);
+}
+
+btn:focus {
+  outline: 0;
+}
