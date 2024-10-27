@@ -99,14 +99,14 @@ const CountDown = ({ startFrom }) => {
   };
 
   const redirectToWebsite = () => {
-    window.location.href = "https://www.amazon.in/";
+    window.location.href = "https://enigma.jimsd.org/";
   };
 
   return (
     <div className="countDownCard">
       {showButton && (
         <button onClick={startCountdown} className="btn">
-          Engine Start
+          Launch Now
         </button>
       )}
       {showTimer && <h1 className="countdown">{counter}</h1>}
