@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/FinalCountDown-up/static/css/main.ca8c6cc8.css",
-    "main.js": "/FinalCountDown-up/static/js/main.65584f35.js",
+    "main.js": "/FinalCountDown-up/static/js/main.f8205f3b.js",
     "index.html": "/FinalCountDown-up/index.html"
   },
   "entrypoints": [
     "static/css/main.ca8c6cc8.css",
-    "static/js/main.65584f35.js"
+    "static/js/main.f8205f3b.js"
   ]
 }
