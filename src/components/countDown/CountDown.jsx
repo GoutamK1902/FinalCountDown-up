@@ -42,14 +42,14 @@
 //   };
 
 //   const redirectToWebsite = () => {
-//     window.location.href = "https://www.amazon.in/"; // Change this to your desired URL
+//     window.location.href = "https://enigma.jimsd.org/"; // Change this to your desired URL
 //   };
 
 //   return (
 //     <div className="countDownCard">
 //       {showButton && ( // Conditional rendering for the button
 //         <button onClick={startCountdown} className="btn ">
-//           Engine Start
+//           Launch Now!
 //         </button>
 //       )}
 //       {showTimer && <h1 className="countdown">{counter}</h1>}{" "}
