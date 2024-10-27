@@ -106,7 +106,7 @@ const CountDown = ({ startFrom }) => {
     <div className="countDownCard">
       {showButton && (
         <button onClick={startCountdown} className="btn">
-          Launch Now
+          Launch Now!
         </button>
       )}
       {showTimer && <h1 className="countdown">{counter}</h1>}
