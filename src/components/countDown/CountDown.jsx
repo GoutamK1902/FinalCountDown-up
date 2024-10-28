@@ -99,7 +99,7 @@ const CountDown = ({ startFrom }) => {
   };
 
   const redirectToWebsite = () => {
-    window.location.href = "https://enigma.jimsd.org/";
+    window.location.href = "https://enigma-it.vercel.app/";
   };
 
   return (
